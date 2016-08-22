@@ -32,20 +32,29 @@ Partial Public Class Master
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''CBody control.
+    '''Cheader control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CBody As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents Cheader As Global.System.Web.UI.WebControls.ContentPlaceHolder
     
     '''<summary>
-    '''Cfooter control.
+    '''Cbody control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Cfooter As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents Cbody As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    
+    '''<summary>
+    '''Cfoot control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Cfoot As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class

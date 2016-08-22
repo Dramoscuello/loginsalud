@@ -9,19 +9,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="Content/bootstrap.css" rel="stylesheet"/>
+    <link href="Content/style.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="Chead" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
-    <!--<form id="form1" runat="server">-->
-    <div>        
-        <div class="container">
-            <asp:ContentPlaceHolder ID="CBody" runat="server"></asp:ContentPlaceHolder>
-        </div>        
-    </div>
-    <!--</form>-->
+    
+    <form id="form1" runat="server">
+        <div>        
+            <div class="container">
+                <ul class="nav nav-tabs">
+                  <li><a href="#login" data-toggle="tab">Login</a></li>
+                  <li><a href="void:javascript()" data-toggle="tab" class="hidden">Usuario</a></li>
+                  <li><a href="#logout" data-toggle="tab" class="hidden">Logout</a></li>
+                </ul>
+                <asp:ContentPlaceHolder ID="Cheader" runat="server"></asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="Cbody" runat="server">
 
+                </asp:ContentPlaceHolder>
+            </div>        
+        </div>
+    </form>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/jquery-3.1.0.js"></script>
-    <asp:ContentPlaceHolder ID="Cfooter" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Cfoot" runat="server"></asp:ContentPlaceHolder>
 </body>
 </html>

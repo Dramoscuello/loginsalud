@@ -17,9 +17,9 @@ c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\bin\L
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\bin\MySql.Data.DLL
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.vbprojResolveAssemblyReference.cache
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.Resources.resources
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.vbproj.GenerateResource.Cache
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.dll
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.xml
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.pdb
+c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.vbprojResolveAssemblyReference.cache

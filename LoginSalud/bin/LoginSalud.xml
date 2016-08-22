@@ -6,6 +6,87 @@ LoginSalud
 </name>
 </assembly>
 <members>
+<member name="F:LoginSalud._Default._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._username">
+<summary>
+username control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._CheckBox1">
+<summary>
+CheckBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud._Default._login">
+<summary>
+login control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:LoginSalud.Master._Chead">
 <summary>
 Chead control.
@@ -24,18 +105,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:LoginSalud.Master._CBody">
+<member name="F:LoginSalud.Master._Cheader">
 <summary>
-CBody control.
+Cheader control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:LoginSalud.Master._Cfooter">
+<member name="F:LoginSalud.Master._Cbody">
 <summary>
-Cfooter control.
+Cbody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud.Master._Cfoot">
+<summary>
+Cfoot control.
 </summary>
 <remarks>
 Auto-generated field.
