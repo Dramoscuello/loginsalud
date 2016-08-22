@@ -9,14 +9,14 @@
            <asp:Label ID="Label1" runat="server" Text="Username" CssClass="col-md-2 control-label"></asp:Label>
            <div class="col-md-3">
                <asp:TextBox ID="username" runat="server" CssClass="form-control"></asp:TextBox>
-               
+               <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="¡Campo requerido!" ControlToValidate="username" CssClass="text-danger"></asp:RequiredFieldValidator>
            </div>
        </div>
         <div class="form-group">
            <asp:Label ID="Label2" runat="server" Text="Password" CssClass="col-md-2 control-label"></asp:Label>
            <div class="col-md-3">
                <asp:TextBox ID="password" runat="server" CssClass="form-control" TextMode="Password"></asp:TextBox>
-               
+               <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="¡Campo requerido!" ControlToValidate="password" CssClass="text-danger"></asp:RequiredFieldValidator>
            </div>
         </div>
         <div class="form-group">
@@ -31,6 +31,7 @@
                <asp:Button ID="login" runat="server" Text="Log in" CssClass="btn btn-default" />
            </div>
         </div>
+        <asp:Label ID="Label4" runat="server" Text="" CssClass="text-danger"></asp:Label>
     </div>
    
 </asp:Content>
