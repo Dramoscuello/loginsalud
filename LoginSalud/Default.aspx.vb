@@ -12,10 +12,12 @@ Public Class _Default
         con.Open()
         Dim cmd As MySqlCommand = con.CreateCommand()
         'cmd.Connection = conec
-        cmd.CommandType = CommandType.Text
-        cmd.CommandText = "select * from datos_ips where CODIGO='" + username.Text + "' and NIT = '" + password.Text + "'"
-        'cmd.Parameters.Add("cd", MySqlDbType.VarChar).Value = username.Text.Trim()
-        'cmd.Parameters.Add("nt", MySqlDbType.VarChar).Value = password.Text.Trim()
+        cmd.CommandType = CommandType.StoredProcedure
+        cmd.CommandText = "PA_consulta"
+        'cmd.CommandType = CommandType.Text
+        'cmd.CommandText = "select * from datos_ips where CODIGO='" + username.Text + "' and NIT = '" + password.Text + "'"
+        cmd.Parameters.Add("cd", MySqlDbType.VarChar).Value = username.Text
+        cmd.Parameters.Add("nt", MySqlDbType.VarChar).Value = password.Text
         cmd.ExecuteNonQuery()
         Dim dt As New DataTable()
         Dim da As New MySqlDataAdapter(cmd)
