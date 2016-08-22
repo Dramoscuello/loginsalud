@@ -5,6 +5,7 @@ Public Class _Default
     'Dim con As Conexion
     Dim con As New MySqlConnection("Data Source=localhost; Database=dblevalidamos; User Id=root; Password='';old guids=true")
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
     End Sub
 
     Protected Sub login_Click(sender As Object, e As EventArgs) Handles login.Click
@@ -14,8 +15,6 @@ Public Class _Default
         'cmd.Connection = conec
         cmd.CommandType = CommandType.StoredProcedure
         cmd.CommandText = "PA_consulta"
-        'cmd.CommandType = CommandType.Text
-        'cmd.CommandText = "select * from datos_ips where CODIGO='" + username.Text + "' and NIT = '" + password.Text + "'"
         cmd.Parameters.Add("cd", MySqlDbType.VarChar).Value = username.Text
         cmd.Parameters.Add("nt", MySqlDbType.VarChar).Value = password.Text
         cmd.ExecuteNonQuery()

@@ -32,6 +32,24 @@ Partial Public Class Master
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
+    '''LinkButton2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents LinkButton2 As Global.System.Web.UI.WebControls.LinkButton
+    
+    '''<summary>
+    '''LinkButton1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents LinkButton1 As Global.System.Web.UI.WebControls.LinkButton
+    
+    '''<summary>
     '''Cheader control.
     '''</summary>
     '''<remarks>
@@ -57,4 +75,13 @@ Partial Public Class Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Cfoot As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    
+    '''<summary>
+    '''Cscripts control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Cscripts As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class

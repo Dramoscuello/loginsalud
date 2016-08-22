@@ -132,6 +132,24 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:LoginSalud.Master._LinkButton2">
+<summary>
+LinkButton2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud.Master._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:LoginSalud.Master._Cheader">
 <summary>
 Cheader control.
@@ -153,6 +171,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:LoginSalud.Master._Cfoot">
 <summary>
 Cfoot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:LoginSalud.Master._Cscripts">
+<summary>
+Cscripts control.
 </summary>
 <remarks>
 Auto-generated field.
