@@ -42,13 +42,6 @@
 </asp:Content>
 
 <asp:Content ID="c4" ContentPlaceHolderID="Cfoot" runat="server"></asp:Content>
-<asp:Content ID="c3" ContentPlaceHolderID="Cscripts" runat="server">
-    <script>
-    $(document).ready(function () {
-        $("#logg").show()
-        $("#lout").hide()
-    });</script>
-</asp:Content>
 
 
 

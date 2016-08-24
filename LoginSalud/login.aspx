@@ -7,11 +7,3 @@
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 
     </asp:Content>
-
-<asp:Content ID="c3" ContentPlaceHolderID="Cscripts" runat="server">
-    <script>
-    $(document).ready(function () {
-        $("#logg").hide()
-        $("#lout").show()
-    });</script>
-</asp:Content>

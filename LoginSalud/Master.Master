@@ -17,11 +17,6 @@
     <form id="form1" runat="server">
         <div>        
             <div class="container">
-                <ul class="nav nav-tabs">
-                  <li id="logg"><asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Default.aspx">Log in</asp:LinkButton></li>
-                  <li id="lout">
-                      <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/logout.aspx">Log out</asp:LinkButton></li>
-                </ul>
                 <asp:ContentPlaceHolder ID="Cheader" runat="server"></asp:ContentPlaceHolder>
                 <asp:ContentPlaceHolder ID="Cbody" runat="server">
                     
@@ -32,8 +27,5 @@
     <script src="Scripts/jquery-3.1.0.js"></script>
     <script src="Scripts/bootstrap.js"></script>    
     <asp:ContentPlaceHolder ID="Cfoot" runat="server"></asp:ContentPlaceHolder>
-    <asp:ContentPlaceHolder ID="Cscripts" runat="server">
-
-    </asp:ContentPlaceHolder>
 </body>
 </html>
