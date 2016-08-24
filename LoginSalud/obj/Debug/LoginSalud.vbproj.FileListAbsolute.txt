@@ -22,4 +22,3 @@ c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\D
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.dll
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.xml
 c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.pdb
-c:\users\win10\documents\visual studio 2015\Projects\LoginSalud\LoginSalud\obj\Debug\LoginSalud.vbprojResolveAssemblyReference.cache

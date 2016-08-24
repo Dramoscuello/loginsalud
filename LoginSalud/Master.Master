@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="Content/bootstrap.css" rel="stylesheet"/>
-    <link href="Content/style.css" rel="stylesheet" />
+    <link href="Content/form.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="Chead" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
