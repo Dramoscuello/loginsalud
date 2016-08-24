@@ -2,45 +2,25 @@
 <asp:Content ID="c1" ContentPlaceHolderID="Chead" runat="server"></asp:Content>
 <asp:Content ID="c2" ContentPlaceHolderID="Cheader" runat="server"></asp:Content>
 <asp:Content ID="cb" ContentPlaceHolderID="Cbody" runat="server">
-    <div class="form-horizontal log">
-        <h2>Log in</h2>
-        <hr />
-       <div class="form-group">
-           <asp:Label ID="Label1" runat="server" Text="Username" CssClass="col-md-2 control-label"></asp:Label>
-           <div class="col-md-3">
-               <asp:TextBox ID="username" runat="server" CssClass="form-control"></asp:TextBox>
-               <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="¡Campo requerido!" ControlToValidate="username" CssClass="text-danger"></asp:RequiredFieldValidator>
-           </div>
-       </div>
-        <div class="form-group">
-           <asp:Label ID="Label2" runat="server" Text="Password" CssClass="col-md-2 control-label"></asp:Label>
-           <div class="col-md-3">
-               <asp:TextBox ID="password" runat="server" CssClass="form-control" TextMode="Password"></asp:TextBox>
-               <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="¡Campo requerido!" ControlToValidate="password" CssClass="text-danger"></asp:RequiredFieldValidator>
-           </div>
-        </div>
-        <div class="form-group">
-           <asp:Label ID="Label3" runat="server" Text="Recordarme" CssClass="col-md-2 control-label"></asp:Label>
-           <div class="col-md-3">
-               <asp:CheckBox ID="CheckBox1" runat="server" />
-           </div>
-        </div>
-        <div class="form-group">
-            <div class="col-md-2"></div>
-           <div class="col-md-6">
-               <asp:Button ID="login" runat="server" Text="Log in" CssClass="btn btn-default" />
-           </div>
-        </div>
-        <asp:Label ID="Label5" runat="server">
-            <div class="alert alert-dismissible alert-danger">
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
-              <strong>Usuario o contraseña incorrectos</strong>
+   <div class="card card-container">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="email" id="inputEmail" class="form-control" placeholder="User Name" required autofocus>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> I'm Awesome, Remember Me!
+                </label>
             </div>
-        </asp:Label>
-    </div>
-   
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Let's Go!</button>
+        </form><!-- /form -->
+        <a href="#" class="forgot-password">
+            Forgot your password?
+        </a>
+    </div><!-- /card-container -->
 </asp:Content>
-
 <asp:Content ID="c4" ContentPlaceHolderID="Cfoot" runat="server"></asp:Content>
 
 
