@@ -53,20 +53,6 @@
     min-height: 1em;
 }
 
-.reauth-email {
-    display: block;
-    color: #404040;
-    line-height: 2;
-    margin-bottom: 10px;
-    font-size: 14px;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .form-signin #inputEmail,
 .form-signin #inputPassword {
@@ -117,13 +103,6 @@
 .btn-signin:focus {
     background-color: #0685FF;
 }
-
-.forgot-password {
-    color: #0685FF;
-}
-
-.forgot-password:hover,
-.forgot-password:active,
-.forgot-password:focus{
-    color: #004e99;
+.mtop{
+    margin-top:10px;
 }
