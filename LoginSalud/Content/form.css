@@ -1,7 +1,7 @@
 ﻿body, html {
     height: 100%;
     background-repeat: no-repeat;
-    background-color: #003D78;
+    background-color: #3C8CBD;
 }
 
 .card-container.card {
@@ -83,7 +83,7 @@
 }
 
 .btn-signin {
-    background-color: #0066CC;
+    background-color: #3C8CBD;
     padding: 0px;
     font-weight: 700;
     font-size: 14px;

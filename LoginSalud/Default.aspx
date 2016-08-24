@@ -6,6 +6,7 @@
 <asp:Content ID="c2" ContentPlaceHolderID="Cheader" runat="server"></asp:Content>
 <asp:Content ID="cb" ContentPlaceHolderID="Cbody" runat="server">
    <div class="card card-container">
+       <h1 class="text-center">LOG IN</h1>
         <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
         <p id="profile-name" class="profile-name-card"></p>
         <div class="form-signin">

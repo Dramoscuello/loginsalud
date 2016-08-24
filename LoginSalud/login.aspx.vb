@@ -6,11 +6,15 @@
         Response.Cache.SetAllowResponseInBrowserHistory(False)
         Response.Cache.SetNoStore()
         If Session("usuario") IsNot Nothing Then
-            Label1.Text = "BIENVENIDO " + Session("usuario")
+            Label1.Text = Session("usuario")
         Else
             Response.Redirect("Default.aspx")
         End If
 
     End Sub
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Session.Clear()
+        Response.Redirect("Default.aspx")
+    End Sub
 End Class
