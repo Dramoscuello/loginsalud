@@ -31,7 +31,12 @@
                <asp:Button ID="login" runat="server" Text="Log in" CssClass="btn btn-default" />
            </div>
         </div>
-        <asp:Label ID="Label4" runat="server" Text="" CssClass="text-danger"></asp:Label>
+        <asp:Label ID="Label5" runat="server">
+            <div class="alert alert-dismissible alert-danger">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Usuario o contraseña incorrectos</strong>
+            </div>
+        </asp:Label>
     </div>
    
 </asp:Content>

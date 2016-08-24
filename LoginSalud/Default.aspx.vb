@@ -5,7 +5,7 @@ Public Class _Default
     'Dim con As Conexion
     Dim con As New MySqlConnection("Data Source=localhost; Database=dblevalidamos; User Id=root; Password='';old guids=true")
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        Label5.Visible = False
     End Sub
 
     Protected Sub login_Click(sender As Object, e As EventArgs) Handles login.Click
@@ -26,6 +26,6 @@ Public Class _Default
             Response.Redirect("login.aspx")
         Next
         con.Close()
-        Label4.Text = "Usuario o contraseña invalidos"
+        Label5.Visible = Visible
     End Sub
 End Class

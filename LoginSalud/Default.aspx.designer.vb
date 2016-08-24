@@ -95,11 +95,11 @@ Partial Public Class _Default
     Protected WithEvents login As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Label4 control.
+    '''Label5 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 End Class
